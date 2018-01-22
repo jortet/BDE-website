@@ -164,7 +164,7 @@ header{
   font-size: 1.2em;
 }
 #connexion, #connected {
-  background-color: rgba(50,161,222,0.5);
+  background-color: rgba(50,161,222,0);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -302,7 +302,7 @@ header input[type="submit"] {
 
 #pdf_ignare button{
   border: none;
-  background-color: rgb(10,121,182);
+  background-color: rgb(255,20,147);
   margin: 10px;
   padding: 10px;
   cursor: pointer;
