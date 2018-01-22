@@ -145,7 +145,7 @@ header{
   left: 90%;
   top: 90%;
   border-radius: 100%;
-  background-color: rgb(20,136,202);
+  background-color: rgb(255, 20, 147);
   height: 6%;
   cursor: pointer;
 }
@@ -302,7 +302,7 @@ header input[type="submit"] {
 
 #pdf_ignare button{
   border: none;
-  background-color: rgb(255,20,147);
+  background-color: rgb(10,121,182);
   margin: 10px;
   padding: 10px;
   cursor: pointer;

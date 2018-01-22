@@ -1,11 +1,15 @@
-<div id="background"></div>
+ <div id="background"></div>
 <div id="background2"></div>
 <header>
   <section id="menu" draggable="true">
     <?php
     $pages = array("accueil"=>"Accueil", "admissibles"=>"Admissibles", "bde"=>"Le BDE", "bds"=>"Le BDS", "actu"=>"Actualités", "ignare"=>"L'IGNare", "album"=>"Photos", "contact"=>"Contacts");
     foreach ($pages as $nom => $page) {
+      if ($nom == "album" || $nom == "ignare") {
+        if (!isset($_SESSION['ENSG']) && $_SESSION['ENSG']) continue;
+      }
       ?>
+
       <button class="bouton" target="_self" onmouseup="goToPHP('./php/<?php echo $nom; ?>.php')"><span><strong><?php echo $page; ?></strong></span></button>
       <?php
     }
