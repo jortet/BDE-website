@@ -3,7 +3,7 @@
 <header>
   <section id="menu" draggable="true">
     <?php
-    $pages = array("accueil"=>"Accueil", "admissibles"=>"Admissibles", "bde"=>"Le BDE", "bds"=>"Le BDS", "actu"=>"Actualités", "ignare"=>"L'IGNare", "album"=>"Photos", "contact"=>"Contacts", "connexion"=>"Se connecter");
+    $pages = array("accueil"=>"Accueil", "admissibles"=>"Admissibles", "bde"=>"Le BDE", "bds"=>"Le BDS", "actu"=>"Actualités", "ignare"=>"L'IGNare", "album"=>"Photos", "connexion"=>"Se connecter");
     foreach ($pages as $nom => $page) {
       if ($nom == "album" || $nom == "ignare") {
         if (isset($_SESSION['ENSG'])) { if (!$_SESSION['ENSG']) {continue;}} else {continue;}
