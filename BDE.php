@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <?php include("./php/head.html"); ?>
   <body>
-  <?php include("./php/main.php"); ?>
+  <?php include("./php/main_public.php"); ?>
   <div id='filtre'><img id="croix" onclick='closeFiltre(this.parentNode);' src="./images/croix_fermeture.png" alt="Fermer"></div>
   <div id="contenu">
     <?php
