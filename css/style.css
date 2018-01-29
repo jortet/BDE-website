@@ -39,7 +39,7 @@ body{
 }
 
 /* main.php */
-/* couleur de fond : 150,20,10 */
+/* couleur de fond : 110,15,10 */
 
 #background {
   position: fixed;
@@ -59,7 +59,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(150,20,10,1);
+  background-color: rgba(110,15,10,1);
   width : 100%;
   height: auto;
   padding-top: 6vh;
@@ -151,7 +151,7 @@ header{
 
 #menu .bouton:hover{
   text-decoration: none;
-  background-color: rgba(150,20,10, .7);
+  background-color: rgba(110,15,10, .7);
 }
 
 #menu .bouton:active{
@@ -165,7 +165,7 @@ header{
   left: 90%;
   top: 90%;
   border-radius: 100%;
-  background-color: rgb(150,20,10);
+  background-color: rgb(110,15,10);
   height: 6%;
   cursor: pointer;
 }
@@ -286,7 +286,7 @@ header input[type="submit"] {
 }
 
 #presentation .paragraph {
-  border: 2px groove rgb(150,20,10);
+  border: 2px groove rgb(110,15,10);
   border-radius: 3px;
   padding: 20px;
   margin: 3px;
@@ -294,31 +294,31 @@ header input[type="submit"] {
 
 #dl_plaquette {
   text-decoration: none;
-  color: rgb(150,20,10);
+  color: rgb(110,15,10);
   transition-duration: .5s;
 
 }
 
 #dl_plaquette:hover {
-  color: rgb(150,20,10);
+  color: rgb(110,15,10);
 	text-shadow: .5px .5px;
 }
 
 #presentation iframe {
   margin: 15px;
   border-radius: 4px;
-  box-shadow: 1px 1px 20px rgb(150,20,10);
+  box-shadow: 1px 1px 20px rgb(110,15,10);
   min-height: 200px;
 }
 
 #presentation p a, #presentation p a:visited{
 	text-decoration: none;
-	color: rgb(150,20,10);
+	color: rgb(110,15,10);
 	transition-duration: .1s;
 }
 
 #presentation p a:hover, #presentation p a:active{
-	color: rgb(150,20,10);
+	color: rgb(110,15,10);
 	text-shadow: .5px .5px;
 }
 
@@ -496,7 +496,7 @@ footer{
 #sponsors li a{
   display: list-item;
   text-decoration: none;
-  color: rgb(150,20,10);
+  color: rgb(110,15,10);
   transition-duration: .5s;
 }
 
@@ -510,12 +510,12 @@ footer{
   box-shadow: 1px 1px 15px black;
 }
 #infosensg {
-  border: 2px solid rgb(150,20,10);
+  border: 2px solid rgb(110,15,10);
   padding: 10px;
   border-radius: 3px;
 }
 #partenaires{
-	background-color: rgba(150,20,10, .8);
+	background-color: rgba(110,15,10, .8);
   font-size: .9em;
 	display: flex;
 	flex-direction: column;
@@ -679,7 +679,7 @@ footer{
   margin: 5px;
   width: 45px;
   height: 45px;
-  border: 3px solid rgb(150,20,10);
+  border: 3px solid rgb(110,15,10);
   padding: 5px;
   cursor: pointer;
 }
@@ -751,7 +751,7 @@ textarea {
   justify-content: center;
   flex-direction: column;
   cursor: pointer;
-  background-color: rgb(150,20,10);
+  background-color: rgb(110,15,10);
   border-radius: 10px;
   color: rgb(237,236,232);
   font-size: 1.3em;
@@ -774,7 +774,7 @@ textarea {
   justify-content: center;
   flex-direction: column;
   cursor: pointer;
-  background-color: rgb(150,20,10);
+  background-color: rgb(110,15,10);
   border-radius: 10px;
   color: rgb(237,236,232);
   font-size: 1.3em;
