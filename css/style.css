@@ -39,6 +39,7 @@ body{
 }
 
 /* main.php */
+/* couleur de fond : 0,10,150 */
 
 #background {
   position: fixed;
@@ -58,7 +59,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(100,20,30,1);
+  background-color: rgba(0,10,150,1);
   width : 100%;
   height: auto;
   padding-top: 6vh;
@@ -150,7 +151,7 @@ header{
 
 #menu .bouton:hover{
   text-decoration: none;
-  background-color: rgba(100,20,30, .7);
+  background-color: rgba(0,10,150, .7);
 }
 
 #menu .bouton:active{
@@ -164,7 +165,7 @@ header{
   left: 90%;
   top: 90%;
   border-radius: 100%;
-  background-color: rgb(100,20,30);
+  background-color: rgb(0,10,150);
   height: 6%;
   cursor: pointer;
 }
@@ -285,7 +286,7 @@ header input[type="submit"] {
 }
 
 #presentation .paragraph {
-  border: 2px groove rgb(100,20,30);
+  border: 2px groove rgb(0,10,150);
   border-radius: 3px;
   padding: 20px;
   margin: 3px;
@@ -293,7 +294,7 @@ header input[type="submit"] {
 
 #presentation p a, #presentation p a:visited{
 	text-decoration: none;
-	color: rgb(100,20,30);
+	color: rgb(0,10,150);
 	transition-duration: .1s;
 }
 
@@ -425,6 +426,19 @@ header input[type="submit"] {
   box-shadow: 2px 2px 50px #555;
 }
 
+.contenuBDS, .contenuBDE {
+  visibility: hidden;
+  opacity: 0;
+  height: 0.1px;width: 0.1px;
+  z-index: -10;
+}
+
+.contenuBDS_toshow, .contenuBDE_toshow {
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0px;
+  transition-duration: .5s;
+}
 
 footer{
   position: relative;
@@ -460,7 +474,7 @@ footer{
 }
 
 #partenaires{
-	background-color: rgb(100,20,30);
+	background-color: rgb(0,10,150);
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -622,7 +636,7 @@ footer{
   margin: 5px;
   width: 45px;
   height: 45px;
-  border: 3px solid rgb(100,20,30);
+  border: 3px solid rgb(0,10,150);
   padding: 5px;
   cursor: pointer;
 }
@@ -694,7 +708,7 @@ textarea {
   justify-content: center;
   flex-direction: column;
   cursor: pointer;
-  background-color: rgb(100,20,30);
+  background-color: rgb(0,10,150);
   border-radius: 10px;
   color: rgb(237,236,232);
   font-size: 1.3em;
@@ -717,7 +731,7 @@ textarea {
   justify-content: center;
   flex-direction: column;
   cursor: pointer;
-  background-color: rgb(100,20,30);
+  background-color: rgb(0,10,150);
   border-radius: 10px;
   color: rgb(237,236,232);
   font-size: 1.3em;
