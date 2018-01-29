@@ -14,7 +14,7 @@
 			<td><center><img width="50%" height="auto" alt="Membre BDE" src="./images/photo_4bde.JPG" style="margin:10px;box-shadow: inset 4px 4px 40px, 3px 3px 30px black;border-radius:5px;"></center></td>
 		</tr>
 		<tr>
-			<td>"Le BDE fait le lien entre l'école et les étudiants, il est là pour animer votre vie au sein de l'établissement!"</td>
+			<td><cite><center>"Le BDE fait le lien entre l'école et les étudiants, il est là pour animer votre vie au sein de l'établissement!"</center></cite></td>
 		</tr>
 		</table>
     <h3>Campus</h3>
@@ -31,11 +31,4 @@
   }
 </script>
 <br><br>
-<center><p>ENSG<br>
-6-8 Avenue Blaise Pascal<br>
-Cité Descartes<br>
-Champs-sur-Marne<br>
-77455 Marne la Vallée<br>
-CEDEX 2
-</center>
 </div>
