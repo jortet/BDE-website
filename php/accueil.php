@@ -1,4 +1,4 @@
-<?php if (!isset($_SESSION)) {session_start();} ?>
+﻿<?php if (!isset($_SESSION)) {session_start();} ?>
 <h1>Accueil</h1>
 <p>Bienvenue sur le site du BDE VIKIGN de l'ENSG géomatique</p>
 <div id="ecole">
@@ -11,7 +11,7 @@
 	<h3 style="padding-top:30px;">Le BDE actuel</h3>
       <table id="photomembrebde">
 		<tr>
-			<td><img alt=bdemembre src="./images/photo_4bde.jpg"></td>
+			<td><img alt=bdemembre src="./images/photo_4bde.JPG"></td>
 		</tr>
 		<tr>
 			<td>"Le BDE fait le lien entre l'école et les étudiants, il est là pour animer votre vie au sein de l'établissement!"</td>
