@@ -1,6 +1,7 @@
 <footer>
     <ul id="sponsors">
-      <li><a target="_blank" href=http://www.ign.fr/><img alt=ign src="./images/ign.png"></a></li>
+      <li><a target="_blank" href=http://www.ign.fr/><img alt=IGN src="./images/ign.png"></a></li>
+      <li><a target="_blank" href=http://www.ensg.eu/><img src="./images/ensg.png" alt="ENSG"></a></li>
       <!-- <li><a target="_blank"><img alt=sponsor2 src="./images/sponsor3.png"></a></li> -->
     </ul>
     <div id="partenaires">
